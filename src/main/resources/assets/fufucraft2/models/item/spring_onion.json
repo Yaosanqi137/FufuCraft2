@@ -1,0 +1,6 @@
+{
+  "parent": "fufucraft2:item/large_sword",
+  "textures": {
+    "layer0": "fufucraft2:item/spring_onion"
+  }
+}

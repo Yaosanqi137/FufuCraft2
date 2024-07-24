@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "fufucraft2:block/spring_onion_crop_stage0"
+  }
+}

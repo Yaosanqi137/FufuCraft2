@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "fufucraft2",
+  "version": "${version}",
+  "name": "fufucraft2",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/fufucraft2/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.astrack.fufucraft2.client.Fufucraft2Client"
+    ],
+    "main": [
+      "me.astrack.fufucraft2.Fufucraft2"
+    ]
+  },
+  "mixins": [
+    "fufucraft2.mixins.json",
+    {
+      "config": "fufucraft2.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-language-kotlin": ">=${kotlin_loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
