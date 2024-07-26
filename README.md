@@ -1,6 +1,4 @@
----
-title: FuFuCraft 2 Mod
----
+
 
 ![image](./FuFuCraft_2.png)
 
